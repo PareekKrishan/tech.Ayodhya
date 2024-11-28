@@ -1,0 +1,511 @@
+@media (max-width:1024px) {
+
+    /* Navbar-Start */
+    .navbar-full {
+        gap: 25px;
+        padding: 15px 20px;
+    }
+
+    .navbar-full .nav-links {
+        gap: 15px;
+    }
+
+    /* Navbar-End */
+
+
+
+
+
+
+    /* Work-Section-Start */
+
+    .work-section .work-detail-box {
+        justify-content: center;
+    }
+
+    .work-section .work-detail-box .card-box {
+        flex-direction: row;
+    }
+
+    .work-section .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Work-section-End */
+
+
+
+
+
+
+    /* Team-section-Start */
+
+    .team-section .card-section {
+        gap: 100px;
+        margin-top: 40px;
+    }
+
+    .team-card-box {
+        margin-top: 0px !important;
+    }
+
+    /* Team-section-End */
+
+
+
+
+
+
+    /* Footer-section-Start */
+
+    .footer-section {
+        padding-top: 60px;
+
+        padding-bottom: 40px;
+    }
+
+    /* Footer-section-End */
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:780px) {
+
+    /* Responsive-Navbar */
+    .navbar-full {
+        display: none;
+    }
+
+    .brand-humburger-box {
+        display: flex;
+    }
+
+    .navbar-small {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    /* Header-Section-Start */
+
+    .header-contant {
+        padding-bottom: 170px;
+    }
+
+
+    .header-contant .contant-text {
+        max-width: 500px;
+    }
+
+    .header-contant .contant-text h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .header-contant .contant-text p {
+        text-align: center;
+    }
+
+    .header-contant .contant-text .btn {
+        justify-content: center;
+
+        gap: 30px;
+
+        margin-top: 25px;
+    }
+
+    /* Header-section-End */
+
+
+
+
+    /* About-section-Start */
+
+    .about-section {
+        padding-top: 0px;
+
+        flex-direction: column-reverse;
+    }
+
+    .about-section .about-text {
+        max-width: 550px;
+
+    }
+
+
+    .about-section .about-text .about-heading {
+        justify-content: center;
+    }
+
+    .about-section .about-text p {
+        text-align: center;
+    }
+
+    .about-section .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section .about-image {
+        overflow: hidden;
+        max-width: 650px;
+    }
+
+    .about-section .about-image img {
+        height: 140%;
+        width: 140%;
+    }
+
+    /* About-section-End */
+
+
+
+
+
+
+    /* Work-section-Start */
+
+    .work-section .heading-section {
+        justify-content: center;
+    }
+
+    .work-section p {
+        text-align: center;
+    }
+
+    .work-section .work-card p {
+        text-align: left;
+    }
+
+    /* Work-section-End */
+
+
+
+
+
+
+
+    /* Testimonial-section-Start */
+
+    .testimonial-section .heading {
+
+        justify-content: center;
+    }
+
+    .testimonial-section .sub-heading {
+        text-align: center;
+    }
+
+    .card-box-testimonial {
+        width: 65%;
+    }
+
+
+    /* Testimonial-section-End */
+
+
+
+
+
+
+
+
+
+    /* Footer-section-Start */
+
+    .footer-section {
+        padding-top: 0px;
+
+        padding-bottom: 40px;
+    }
+
+    .footer-details {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 80px;
+    }
+
+    .footer-details .detail {
+        max-width: 50%;
+    }
+
+    .footer-details .detail h2 {
+        text-align: center;
+    }
+
+    .footer-details .brand-detail p {
+        text-align: center;
+    }
+
+    /* Footer-section-End */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:430px) {
+
+    /* Navbar-Start */
+
+    .humburger-btn svg {
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .brand-humburger-box {
+        padding: 10px 20px;
+    }
+
+    /* Navbar-End */
+
+
+
+
+
+    /* Header-contant-Start */
+
+    .header-contant {
+        padding: 40px 40px 150px 40px;
+    }
+
+    .header-contant .contant-text {
+        max-width: 100%;
+    }
+
+    .header-contant .contant-text .btn a {
+        padding: 10px 12px;
+
+    }
+
+    .header-contant .contant-image {
+        max-width: 100%;
+
+        height: 200px;
+    }
+
+    /* Header-contant-End */
+
+
+    /* About-section-Start */
+
+    .about-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .about-section .about-image {
+        height: 350px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .about-section .about-image img {
+        height: 150%;
+        width: 100%;
+    }
+
+    .about-section .about-text .about-heading {
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    /* About-section-End */
+
+
+
+
+
+
+
+    /* Services-section-Start */
+
+
+    .services-section {
+        padding: 40px 20px;
+    }
+
+    .services-section .heading {
+        font-size: 24px;
+
+    }
+
+
+    .services-section .card-section {
+
+        padding: 35px 0px;
+    }
+
+
+    .service-card-contant {
+        width: 200px;
+    }
+
+    .service-card-contant .icon-box {
+        height: 150px;
+    }
+
+    /* Services-section-End */
+
+
+    /* Work-section-Start */
+
+    .work-section {
+        padding: 40px 20px;
+    }
+
+    .work-section .heading-section {
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .work-section .work-detail-box {
+        gap: 20px;
+    }
+
+    .work-section .work-detail-box .card-box {
+        flex-direction: column;
+    }
+
+    /* Work-section-End */
+
+
+
+    /* Team-section-Start */
+
+    .team-section {
+        padding: 40px 20px 0px 20px;
+    }
+
+
+
+    .team-section .heading h2 {
+        font-size: 30px;
+    }
+
+
+    .team-section .card-section {
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+
+    /* Team-section-End */
+
+
+
+
+
+
+
+
+
+
+
+    /* Testimonial-section-Start */
+
+    .testimonial-section {
+        padding: 20px;
+    }
+
+
+    .testimonial-section .heading {
+        font-size: 24px;
+        justify-content: center;
+
+
+
+        margin-bottom: 10px;
+    }
+
+    .card-box-testimonial {
+        width: 100%;
+    }
+
+
+    .testimonial-section .card-section {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .card-box-testimonial .img-name-box {
+        flex-direction: column;
+
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    /* Testimonial-section-End */
+
+    .footer-section {
+        padding: 40px 20px 20px 20px;
+    }
+
+
+
+    .footer-section .heading {
+
+        padding-top: 40px;
+    }
+
+    .footer-details .detail {
+        max-width: 100%;
+
+    }
+
+    .footer-section .copy-rights span {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+
+    }
+
+
+    .footer-section .copy-rights svg {
+        height: 12px;
+        width: 12px;
+    }
+
+
+
+
+}
